@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MainBottom from "./Component/MainBottom";
+import MainCm from "./Component/MainCm";
+import AboutPage from "./Route/AboutPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="row" style={{ minHeight: "100vh" }}>
+      <div class="col-lg-2 col-md-5 col-sm-12 BoxMBottom" style={{ display: "flex", backgroundColor: "#f6ba13" , justifyContent:"center", paddingTop:350}}><MainBottom pageName ="homePage"/></div>
+      <div class="col-lg-10 col-md-5 col-sm-12" style={{ display: "flex" ,backgroundColor: "#282c34", color: "White", fontFamily: "'Mitr', sans-serif",justifyContent:"center"}}>
+        <MainCm />
+      </div>
     </div>
   );
 }

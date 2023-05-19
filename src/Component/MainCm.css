@@ -1,0 +1,64 @@
+.boximg {
+  background-color: azure;
+  border-radius: 40px;
+}
+.boxlaptop {
+    display: flex;
+    align-items: top center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url('https://drive.google.com/uc?id=1E2wxS9WDNLr4QnfoaydCDfv9IJmVLkUQ');
+    background-position:top;
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
+
+.mboxpage{
+  border-top: 11px outset #e39f0d;
+  border-right: 20px solid #b87400;
+  border-bottom: 16px solid #855b00;
+  border-left: 8px solid #a87b00;
+  box-shadow: 1px px 1px 1px rgba(209, 143, 0, 0.58);
+  background-color: #f1bc48;
+}
+
+.educationcard{
+  margin: 30px 0px 30px 0px;
+  transition: .3s;
+  border-radius: 10px;
+  padding: 20px;
+}
+.educationcard:hover{
+  color: whitesmoke;
+  background: black;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.image-container {
+  transition: opacity 3s, transform 0.5s;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.image-container img {
+  transition: opacity 3s, transform 0.5s;
+  opacity: 1;
+  transform: translateY(20px);
+}
+
+.image-container:hover img {
+  opacity: 1;
+  transform: translateY(0);}

@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.BoxMBottom{
+  border-top: 11px outset #e39f0d;
+  border-right: 20px solid #b87400;
+  border-bottom: 20px solid #855b00;
+  border-left: 8px solid #a87b00;
+  box-shadow: 10px 9px 10px 17px rgba(209, 143, 0, 0.58);
+}
+
