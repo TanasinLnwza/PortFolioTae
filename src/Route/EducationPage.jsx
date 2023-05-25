@@ -53,6 +53,7 @@ function EducationPage() {
           </div>
           <div style={{ display: "flex", marginTop: 0, justifyContent: "left" }}>
             <EducationCard
+            schoolimg=""
               when="2019-2023"
               level="Bachelor Degrees"
               school="Rajamangala University of Technology Thanyaburi"

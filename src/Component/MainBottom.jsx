@@ -26,8 +26,8 @@ function MainBottom(props) {
             <ul>
               <li style={{}}>
                 <Link
-                  className="nav-item"
-                  style={{ color: "black", textDecorationLine: "none" }}
+                  className="nav-item Momainb"
+                  style={{ textDecorationLine: "none" }}
                   to="/"
                 >
                   Home

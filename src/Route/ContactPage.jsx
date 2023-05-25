@@ -7,7 +7,7 @@ function ContactPage(props) {
     <div>
       <div class="row" style={{ minHeight: "100vh" }}>
         <div
-          class="col-2 BoxMBottom"
+          class="col-lg-2 col-md-5 col-sm-12 BoxMBottom"
           style={{
             display: "flex",
             backgroundColor: "#f6ba13",

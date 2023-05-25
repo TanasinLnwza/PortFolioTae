@@ -8,7 +8,7 @@ function AboutPage(props) {
     <div>
       <div class="row" style={{ minHeight: "100vh" }}>
         <div
-          class="col-2 BoxMBottom"
+          class="col-lg-2 col-md-12 col-sm-12 BoxMBottom"
           style={{
             display: "flex",
             backgroundColor: "#f6ba13",
@@ -19,7 +19,7 @@ function AboutPage(props) {
           <MainBottom pageName="aboutPage" />
         </div>
         <div
-          class="col-10 "
+          class="col-lg-10 col-md-12 col-sm-12 "
           style={{
             backgroundColor: "#282c34",
             color: "White",
@@ -29,11 +29,11 @@ function AboutPage(props) {
           }}
         >
           <div
-            className="BoxPage col-3"
+            className="BoxPage col-10"
             style={{
               display:"flex",
               paddingBottom: 0,
-              marginRight: 0,
+              marginRight: 200,
               textShadow: "1px 1px 2px black",
               justifyContent:"center"
             }}
